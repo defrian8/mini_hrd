@@ -1,6 +1,5 @@
 from django.contrib import admin
 from kehadiran.models import Kehadiran
-from Izin.models import Izin
 
 # Register your models here.
 class KehadiranAdmin (admin.ModelAdmin):
@@ -46,5 +45,5 @@ class IzinAdmin(admin.ModelAdmin):
 
     batalkan_izin.short_description = "Batalkan pengajuan izin yang dipilih"
 
-admin.site.register(Izin, IzinAdmin)
+
 
