@@ -1,6 +1,3 @@
-from django.conf.urls import url
-from django.contrib import admin
-
 from homepage import views as homepage_views
 from karyawan import views as karyawan_views
 from kehadiran import views as kehadiran_views
